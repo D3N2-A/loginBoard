@@ -1,0 +1,44 @@
+.admin-card {
+  margin: 20px auto;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  /* border-radius: 30px; */
+  background: #f0f0f0;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  width: 60vw;
+  height: 85vh;
+  border-radius: 50px;
+
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+
+.admin-avatar-image {
+  width: 100px;
+}
+.admin-back {
+  margin-right: auto;
+  margin-left: 0;
+  width: 30px;
+  margin-left: 0;
+  border-style: none;
+  cursor: pointer;
+
+  animation: back 0.3s ease-in-out;
+}
+.admin-back :hover {
+  transform: translateY(-2px);
+}
+@keyframes back {
+  0% {
+    transform: translateY(0px);
+  }
+  20% {
+    transform: translateY(-3px);
+  }
+  60% {
+    transform: translateY(-2px);
+  }
+}

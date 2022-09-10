@@ -1,6 +1,8 @@
 import React from "react";
 import "./index.css";
 import avatar from "../../assets/user.png";
+import { Link } from "react-router-dom";
+import back from "../../assets/previous.png";
 
 const User = () => {
   return (
@@ -9,6 +11,11 @@ const User = () => {
         <div className="form-avatar">
           <img className="form-avatar-image" src={avatar} alt="" />
         </div>
+        <Link to="/">
+          <button className="admin-back">
+            <img src={back} alt="" className="admin-back" />
+          </button>
+        </Link>
         <div class="form-dropdown">
           <button class="dropbtn">Name Picker</button>
           <div class="dropdown-content">
