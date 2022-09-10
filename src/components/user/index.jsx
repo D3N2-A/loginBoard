@@ -1,11 +1,14 @@
 import React from "react";
 import "./index.css";
+import avatar from "../../assets/user.png";
 
 const User = () => {
   return (
     <div>
       <div className="form-control">
-        <div className="form-avatar"></div>
+        <div className="form-avatar">
+          <img className="form-avatar-image" src={avatar} alt="" />
+        </div>
         <div class="form-dropdown">
           <button class="dropbtn">Name Picker</button>
           <div class="dropdown-content">
@@ -42,6 +45,9 @@ const User = () => {
           </label>
           <br />
           <input type="datetime-local" name="" id="date" />
+        </div>
+        <div>
+          <input type="submit" value="Save" className="btn solid" />
         </div>
       </div>
     </div>
