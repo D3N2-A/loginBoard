@@ -10,7 +10,7 @@ const Sign = () => {
             <h2 className="title">Sign in</h2>
             <div className="input-field">
               <i className="fas fa-user"></i>
-              <input type="text" placeholder="Username" />
+              <input type="text" placeholder="E-mail" />
             </div>
             <div className="input-field">
               <i className="fas fa-lock"></i>
