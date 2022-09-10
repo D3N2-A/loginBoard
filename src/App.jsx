@@ -1,7 +1,8 @@
 import "./App.css";
+import Sign from "./components/sign";
 
 function App() {
-  return <div>Hello</div>;
+  return <Sign />;
 }
 
 export default App;
